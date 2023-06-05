@@ -32,11 +32,15 @@ div.title-text{
     padding: 1rem;
 }
 
+div.title-text h2{
+    font-size: 3rem;
+}
+
 div .prev-btn,
 div .next-btn
 {
-    width: 60px;
-    height: 60px;
+    width: 50px;
+    height: 50px;
     background-color: white;
     position: absolute;
     top: 50%;
@@ -48,12 +52,12 @@ div .next-btn
 }
 
 div .next-btn{
-    right: 0%;
+    right: 2%;
     cursor: cell;
 }
 
 div .prev-btn{
-    left: 0%;
+    left: 2%;
     border-radius: 50%;
     cursor: cell;
 }
