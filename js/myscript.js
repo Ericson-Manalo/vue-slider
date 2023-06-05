@@ -37,15 +37,15 @@ createApp({
     methods: {
         prevImage(){
             if (this.activeIndex === 0){
-                this.active = this.images.length-1;
+                this.activeIndex = this.images.length-1;
             }else{
                 this.activeIndex--;
             }
         },
 
         nextImage(){
-            if (this.active === this.images.length-1){
-                this.active = 0;
+            if (this.activeIndex === this.images.length-1){
+                this.activeIndex = 0;
             }else{
                 this.activeIndex++;
 
