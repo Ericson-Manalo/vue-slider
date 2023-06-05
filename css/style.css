@@ -38,6 +38,7 @@ div.title-text h2{
 
 div.thumbnail{
     display: flex;
+    height: 150px;
 }
 
 div .prev-btn,
