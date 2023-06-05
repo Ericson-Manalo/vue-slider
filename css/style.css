@@ -6,18 +6,6 @@
     background-color: red;
 }
 
-div.wrapper-item{
-    height: 100%;
-    width: 100%;
-    display: none;
-}
-
-div.wrapper-item.active{
-    height: 100%;
-    width: 100%;
-    display: block;
-}
-
 
 div.wrapper-container img{
     width: 100%;
@@ -44,7 +32,6 @@ div.thumbnail{
 div.thumbnail img{
     filter: brightness(50%);
 }
-
 
 div .prev-btn,
 div .next-btn
