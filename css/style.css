@@ -36,6 +36,10 @@ div.title-text h2{
     font-size: 3rem;
 }
 
+div.thumbnail{
+    display: flex;
+}
+
 div .prev-btn,
 div .next-btn
 {

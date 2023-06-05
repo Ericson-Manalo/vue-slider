@@ -15,9 +15,12 @@
     <script src="https://unpkg.com/vue@3"></script>
 
     <div id="app">
-        <h1 class="text-center mb-5">
-            VueJs - Slider
-        </h1>
+        <header>
+            <h1 class="text-center mb-5">
+                VueJs - Slider
+            </h1>
+        </header>
+
         <main>
             <div class="wrapper-container">
                 <img :src="images[activeIndex].image" alt="Random pictures">
@@ -29,6 +32,12 @@
                         {{images[activeIndex].text}}
                     </p>
                 </div>
+                <div class="thumbnail">
+                    <div class="image-thumbnail" v-for="img in images.image">
+                        <img :src="img" alt="images in thumbnail">
+                    </div>
+                </div>
+                    
                 <div class="prev-btn" @click ="prevImage()">
                     <i class="fa-solid fa-seedling m-auto"></i>
                 </div>
