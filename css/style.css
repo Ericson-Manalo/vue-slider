@@ -1,0 +1,54 @@
+.wrapper-container{
+    width: 1000px;
+    height: 650px;
+    margin: 0 auto;
+    position: relative;
+}
+
+div.wrapper-item{
+    height: 100%;
+    width: 100%;
+    display: none;
+}
+
+div.wrapper-item.active{
+    height: 100%;
+    width: 100%;
+    display: block;
+}
+
+
+div.wrapper-container img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+div .prev-btn,
+div .next-btn
+{
+    width: 60px;
+    height: 60px;
+    background-color: white;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    border-radius: 50%;
+    opacity: 0.3;
+    font-size: 2rem;
+    display: flex;
+}
+
+div .next-btn{
+    top: 50%;
+    right: 0%;
+    transform: translateY(-50%);
+    cursor: cell;
+}
+
+div .prev-btn{
+    top: 50%;
+    transform: translateY(-50%);
+    border-radius: 50%;
+    cursor: cell;
+}
