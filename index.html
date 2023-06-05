@@ -20,12 +20,12 @@
         </h1>
         <main>
             <div class="wrapper-container">
-                <img :src="images[0]" alt="">
-                <div class="prev-btn">
+                <img :src="images[activeIndex]" alt="Random pictures">
+                <div class="prev-btn" @click ="prevImage()">
                     <i class="fa-solid fa-seedling m-auto"></i>
                 </div>
 
-                <div class="next-btn">
+                <div class="next-btn" @click="nextImage()">
                     <i class="fa-solid fa-tree m-auto"></i>
                 </div>
             </div>
