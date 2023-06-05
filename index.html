@@ -21,6 +21,14 @@
         <main>
             <div class="wrapper-container">
                 <img :src="images[activeIndex].image" alt="Random pictures">
+                <div>
+                    <h2>
+                        {{images[activeIndex].title}}
+                    </h2>
+                    <p>
+                        {{images[activeIndex].text}}
+                    </p>
+                </div>
                 <div class="prev-btn" @click ="prevImage()">
                     <i class="fa-solid fa-seedling m-auto"></i>
                 </div>
