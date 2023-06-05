@@ -3,6 +3,7 @@
     height: 650px;
     margin: 0 auto;
     position: relative;
+    background-color: red;
 }
 
 div.wrapper-item{
@@ -21,7 +22,7 @@ div.wrapper-item.active{
 div.wrapper-container img{
     width: 100%;
     height: 100%;
-    object-fit: contain;
+    object-fit: cover;
 }
 
 div .prev-btn,
@@ -40,15 +41,12 @@ div .next-btn
 }
 
 div .next-btn{
-    top: 50%;
     right: 0%;
-    transform: translateY(-50%);
     cursor: cell;
 }
 
 div .prev-btn{
-    top: 50%;
-    transform: translateY(-50%);
+    left: 0%;
     border-radius: 50%;
     cursor: cell;
 }
