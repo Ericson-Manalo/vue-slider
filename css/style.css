@@ -41,6 +41,11 @@ div.thumbnail{
     height: 150px;
 }
 
+div.thumbnail img{
+    filter: brightness(50%);
+}
+
+
 div .prev-btn,
 div .next-btn
 {
